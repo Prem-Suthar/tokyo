@@ -1,0 +1,184 @@
+@media screen and (max-width: 1200px) {
+
+    .Soaking .colam-img img {
+        width: 850px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Soaking .soaking-body h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(89 89 89);
+    }
+
+    .Soaking.soaking-body p {
+        font-size: 18px;
+    }
+
+    .read {
+        margin-bottom: 112.15px;
+
+    }
+
+    .read a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nevbar ul a {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .nevbar ul a.active {
+        color: #000000;
+    }
+
+    .Soaking .colam-img img {
+        width: 795px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Soaking .soaking-body {
+        width: 75%;
+
+        height: auto;
+    }
+
+    .Soaking .soaking-body .ctrl {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    .Soaking .soaking-body a {
+        font-size: 18px;
+        font-weight: 600;
+        color: #6d6969;
+
+    }
+
+    .footer {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tokyo {
+        padding: 55px 0px;
+    }
+
+    .header a {
+        font-size: 45px;
+        color: #000000;
+    }
+
+    .nevbar ul a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .Soaking .colam-img img {
+        width: 600px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Soaking .soaking-body .ctrl {
+        font-size: 16px;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .Soaking .soaking-body a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #6d6969;
+
+    }
+
+    .Soaking .soaking-body p {
+        margin-bottom: 48px;
+
+    }
+
+    .read a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #939393;
+    }
+
+    /* ABOUT */
+    .adout-img img {
+        height: 200px;
+        width: 200px;
+        margin-top: -25px;
+
+    }
+
+    .adout-body h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-footer {
+        margin: 0px;
+    }
+
+    .colors-body2 h1{
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .cantenar {
+        width: 100%;
+
+    }
+
+    .tokyo {
+        padding: 35px 0px;
+    }
+
+    .header a {
+        font-size: 35px;
+    }
+
+    .nevbar ul {
+        margin-top: 30px;
+    }
+
+    .nevbar ul a {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .Soaking .colam-img img {
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+    }
+    .adout-body h1 {
+        font-size: 1rem;
+    }
+    .adout-img img {
+        height: 150px;
+        width: 150px;
+        margin-top: -18px;
+    }
+    .about-footer p{
+        margin-top: 0px;
+    }
+    .colors-body2 h1{
+        font-size: 1rem;
+    }
+    .blog-content .colors-body h1{
+        font-size: 1.4rem;
+    }
+}

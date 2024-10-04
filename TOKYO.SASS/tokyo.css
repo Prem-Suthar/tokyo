@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cantenar {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.tokyo {
+  position: relative;
+  animation: mymove 1s;
+  padding: 70px 0px;
+}
+
+.header a {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 55px;
+  text-decoration: none;
+  color: #333232;
+}
+.header a:hover {
+  color: #878787;
+}
+
+@keyframes mymove {
+  0% {
+    top: 80px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.nevbar ul {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 40px 0px 0px 0px;
+}
+.nevbar ul a {
+  text-decoration: none;
+  list-style: none;
+  color: #C3C3C3;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.nevbar ul a:hover {
+  color: #878787;
+}
+
+.nevbar ul a.active {
+  color: #797979;
+}
+
+.Soaking {
+  position: relative;
+  animation: mymov 1s;
+}
+.Soaking .colam-img img {
+  width: 945px;
+  margin-bottom: 40px;
+}
+.Soaking .colam-img img:hover {
+  opacity: 0.8;
+}
+.Soaking .soaking-body {
+  width: 50%;
+  margin: auto;
+}
+.Soaking .soaking-body h1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #989898;
+  margin-bottom: 15px;
+}
+.Soaking .soaking-body a {
+  font-size: 16px;
+  color: #D2D2D2;
+}
+.Soaking .soaking-body a:hover {
+  color: blue;
+}
+.Soaking .soaking-body .ctrl {
+  font-size: 16px;
+  color: #D2D2D2;
+  margin-bottom: 30px;
+}
+.Soaking .soaking-body p {
+  margin-bottom: 74px;
+  color: #333232;
+}
+
+.read {
+  margin-bottom: 168.15px;
+}
+.read a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(168, 166, 166);
+}
+.read a:hover {
+  color: #dedede;
+}
+
+@keyframes mymov {
+  0% {
+    right: 100px;
+    opacity: 0.5;
+  }
+  100% {
+    right: 0px;
+  }
+}
+.footer {
+  border-top: 1px solid rgb(154, 154, 154);
+  text-align: center;
+  padding: 40px 0px;
+  margin-top: -45px;
+}
+.footer .icon {
+  font-size: 20px;
+}
+.footer .icon i {
+  padding: 0px 6px;
+  color: #000000;
+}
+.footer .icon i:hover {
+  color: #a9a6a6;
+}
+.footer .footer-text {
+  color: #a9a6a6;
+}
+
+.adout-img img {
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+}
+
+.adout-body {
+  width: 50%;
+  margin: auto;
+  color: #4c4b4b;
+  line-height: 25px;
+}
+
+.about-footer {
+  margin-top: 70px;
+}
+
+.blog-content {
+  color: rgb(100, 100, 100);
+}
+
+.colors-body2 {
+  text-align: left;
+  margin: auto;
+  padding: 20px;
+  width: 65%;
+}
+
+.colors-body P {
+  color: #a9a6a6;
+}
+.colors-body P a {
+  color: #a9a6a6;
+}
+.colors-body P a:hover {
+  color: #4e4d4d;
+}
+
+.footer2 {
+  border-top: 1px solid rgb(154, 154, 154);
+  text-align: center;
+  padding: 40px 0px;
+}
+.footer2 .icon {
+  font-size: 20px;
+}
+.footer2 .icon i {
+  padding: 0px 6px;
+  color: #000000;
+}
+.footer2 .icon i:hover {
+  color: #a9a6a6;
+}
+.footer2 .footer-text {
+  color: #a9a6a6;
+}
+
+.tokyo-sports {
+  padding: 70px 0px 60px 0px;
+  margin: 0px;
+}
+.tokyo-sports .header a {
+  font-weight: 700;
+  font-size: 55px;
+  color: #303030;
+}
+.tokyo-sports .colors-body h1 {
+  font-size: 50px;
+}
+
+.category h1 {
+  margin: 0px 0px 60px 0px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #424242;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.blog-content2 h1 {
+  font-size: 1.3rem;
+  color: #393939;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.p-primary {
+  text-align: left;
+  width: 650px;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.color-body {
+  margin: 40px 0px;
+}
+.color-body .ctrl {
+  color: #CED4E0;
+}
+.color-body .ctrl a {
+  color: #CED4E0;
+}
+.color-body .ctrl a:hover {
+  color: #333232;
+}/*# sourceMappingURL=tokyo.css.map */
