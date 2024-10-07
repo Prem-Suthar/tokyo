@@ -84,14 +84,15 @@
         font-weight: 400;
     }
     
-    .colam-img{
-        padding: 0px 20px;
-    }
+    
 
     .Soaking .colam-img img {
         width: 735px;
         max-width: 100%;
         height: auto;
+    }
+    .colam-ing{
+        padding: 0px 20px;
     }
 
     .Soaking .soaking-body .ctrl {
