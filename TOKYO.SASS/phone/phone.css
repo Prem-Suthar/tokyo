@@ -167,6 +167,9 @@
         font-size: 12px;
         font-weight: 300;
     }
+    .Soaking .colam-img{
+        padding: 0px 20px;
+    }
 
     .Soaking .colam-img img {
         width: 300px;
