@@ -264,4 +264,20 @@ body {
 }
 .color-body .ctrl a:hover {
   color: #333232;
+}
+
+.read2 {
+  margin-bottom: 168.15px;
+}
+.read2 a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(168, 166, 166);
+}
+.read2 a:hover {
+  color: #dedede;
 }/*# sourceMappingURL=tokyo.css.map */
